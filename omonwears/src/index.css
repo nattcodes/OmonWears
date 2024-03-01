@@ -210,3 +210,18 @@ main::after {
     transform: scale(1.2);
     transition: all 0.3s ease-in-out;
 }
+
+.talk {
+    align-items: center;
+    text-align: center;
+}
+
+.talk h2 {
+    padding: 1rem 0;
+    background-color: rgba(252, 71, 86, 0.873);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--Poppins);
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+}

@@ -4,6 +4,7 @@ import CollectionImgc from '../assets/nimble-made-DRM_6zFkPFw-unsplash.jpg'
 
 const CollectionSection = () => {
   return (
+  <div>
     <section className="collection">
         <div className="collection-content">
           <div className="collection-item">
@@ -29,6 +30,7 @@ const CollectionSection = () => {
         </div>
         
       </section>
+  </div>
   )
 }
 
