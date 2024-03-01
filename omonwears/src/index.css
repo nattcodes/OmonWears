@@ -38,6 +38,11 @@ body {
     overflow-x: hidden;
 }
 
+.nav-content {
+    background-color: rgba(0, 0, 0, 0.846);
+    border-radius: 3rem;
+}
+
 .nav-links {
     margin: 0;
     padding: 0;
@@ -49,18 +54,19 @@ body {
 .nav-links li a {
     margin-right: 3rem;
     font-family: var(--Poppins);
+    font-size: 0.9rem;
 }
 
 .nav-links li a.b {
     background-color: rgba(252, 71, 86, 0.873);
     color: rgba(255, 255, 255, 0.887);
-    padding: .3rem 1rem;
-    border-radius: .4rem;
+    padding: 0.3rem 1rem;
+    border-radius: 0.4rem;
 }
 
 .nav-links li a.a:hover {
     color: rgba(250, 192, 33, 0.873);
-    transition: .1s ease-in-out;
+    transition: 0.1s ease-in-out;
 }
 
 main {
@@ -70,7 +76,7 @@ main {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 100dvh;
+    height: 80dvh;
     animation: change 20s infinite ease-in-out;
     align-items: center;
     text-align: center;
@@ -116,29 +122,29 @@ main::after {
     background-color: rgba(250, 192, 33, 0.873);
     color: rgba(0, 0, 0, 0.887);
     padding: 1rem 3rem;
-    border-radius: .7rem;
-    transition: .1s ease-in-out;
+    border-radius: 0.7rem;
+    transition: 0.1s ease-in-out;
 }
 
 .btn-text:hover {
     background-color: rgba(252, 71, 86, 0.873);
     color: rgba(255, 255, 255, 0.887);
-    transition: .1s ease-in-out;
+    transition: 0.1s ease-in-out;
     box-shadow: 1px 1px 5px black;
 }
 
-.services {
+.collection {
     color: #f1f1f1;
 }
 
-.services-content {
+.collection-content {
     display: flex;
     justify-content: center;
     margin: 0 2rem;
     flex-wrap: wrap;
 }
 
-.services-content h1 {
+.collection-content h1 {
     font-size: 5rem;
     font-family: Poppins;
     font-weight: 600;
@@ -148,7 +154,7 @@ main::after {
     margin-top: 1rem;
 }
 
-.services-content .services-item {
+.collection-content .collection-item {
     margin: 2rem 0;
     display: flex;
     flex-direction: row;
@@ -175,11 +181,11 @@ main::after {
     height: 100%;
     object-fit: cover;
     box-sizing: border-box;
-    border-radius: .4rem;
+    border-radius: 0.4rem;
 }
 
-.service-overlay {
-    border-radius: .4rem;
+.collection-overlay {
+    border-radius: 0.4rem;
     padding: 0 2rem;
     position: absolute;
     left: 50%;
@@ -194,13 +200,13 @@ main::after {
     color: rgb(245, 245, 245);
 }
 
-.service-overlay h3 {
+.collection-overlay h3 {
     font-family: var(--Poppins);
-    color: rgba(255, 255, 255, 0.825);
+    color: rgb(255, 255, 255);
     font-weight: 600;
 }
 
-.service-overlay:hover h3 {
+.collection-overlay:hover h3 {
     transform: scale(1.2);
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
